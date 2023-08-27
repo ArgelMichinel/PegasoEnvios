@@ -1,0 +1,107 @@
+<style>
+
+.dummy {
+  display: block;
+}
+
+main h2 {
+  text-align: center; 
+  align-content: center;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: #b6b6bf;
+  padding: 5px 0px;
+}
+
+.h1, h1 {
+  font-size: 2.5rem;
+  color: #fdfffe;
+  -webkit-text-stroke: 1px black;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.presentacion {
+  text-align: center; 
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://cmenvios.000webhostapp.com/images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: calc( 100vh - 200px);
+  position: relative;
+  height: auto;
+  vertical-align: middle;
+}
+
+.presentacion h2 {
+  text-align: center; 
+  margin: auto;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: #b6b6bf;
+  padding: 5px 0px;
+  width: 60vw;
+  vertical-align: middle;
+}
+
+.container-fluid div p {
+  text-align: center; 
+  margin: auto;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: transparent;
+  padding: 5px 0px;
+  width: 60vw;
+  vertical-align: middle;
+}
+
+/* Include the padding and border in an element's total width and height */
+.Lista {
+  box-sizing: border-box;
+}
+    
+.table_container {
+  border-collapse: collapse;
+  border-spacing: auto;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  display: inline-block;
+}
+
+div.dataTables_wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+#example_length {
+        display: none;
+    }
+    
+</style>

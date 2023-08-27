@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+	<style>
+
+	</style>
+</head>
+<style>
+    
+    body {
+        display: flex;
+        align-items: center;
+    }
+    .myClass {
+        margin:0px auto;
+    }
+    
+    .myClass ul {
+        display: contents !important;
+    }
+
+    *, *:after, *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-top-color: unset !important;
+    border-bottom-color: unset !important;
+    border-right-color: unset !important;
+    }
+
+    .boton_video {
+        border-radius: 20px;
+        background: linear-gradient(81deg, #f0f0f000, #cec4c445);
+        box-shadow: 11px 8px 18px 0px #b5b5b5, -5px -8px 9px #ffffff;
+        font-family: 'Roboto', sans-serif;
+        /*color: #007bff;*/
+        color: white;
+        font-size: 50px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+        .boton_video {
+        border-radius: 10px;
+        background: linear-gradient(81deg, #f0f0f000, #cec4c445);
+        box-shadow: 5px 4px 8px 0px #b5b5b5, -3px -5px 5px #ffffff;
+        font-family: 'Roboto', sans-serif;
+        /*color: #007bff;*/
+        color: white;
+        font-size: 20px;
+        margin: auto;
+        cursor: pointer;
+    }
+}
+</style>
+<body>
+
+<div id="myId" class="myClass">
+    <ul>
+        <button class="boton_video" onclick="window.parent.location.href='https://www.pegasoenvios.com/tracking.php'">Seguimiento de envíos</button>
+        
+    </ul>
+</div>
+
+<script src="js/background-video.js"></script>
+<link type="text/css" href="css/background-video.css" rel="stylesheet" />
+<script>
+new BackgroundVideo({
+
+    video: [
+        
+        {
+            file: "video/25.mp4"
+        }
+    ],
+    /*
+     * To save traffic mobile users see a still image instead of video.
+     */
+     mobileImg: "img/rosebox-BFdSCxmqvYc.jpg"
+    
+});
+
+</script>
+</body>

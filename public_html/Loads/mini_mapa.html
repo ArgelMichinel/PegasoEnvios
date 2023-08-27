@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini map</title>
+    <link rel="stylesheet" href="./Styles/leaflet.css" />
+    <script src="./js/leaflet.js"></script>
+    <style>
+      html, body {
+        height: auto;
+        padding: 0;
+        margin: 0;
+      }
+    #map {
+        width: 80%;
+        padding-top: 80%;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+
+  </body>
+  <script>
+        /*/ initialize Leaflet
+        var coord_lat;
+        var coord_lon;
+
+        function inicio_map() {
+            coord_lat = respu[0].lat;
+            coord_lon = respu[0].lon;
+
+            crea_mapa(coord_lat,coord_lon);
+        }
+
+        function crea_mapa (coord_lat,coord_lon) {
+            var map = L.map('map').setView({lon: coord_lon, lat: coord_lat}, 17);
+
+            // add the OpenStreetMap tiles
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                minZoom: 9,
+            }).addTo(map);
+
+            // show the scale bar on the lower left corner
+            L.control.scale().addTo(map);
+
+            //Marcador de ubicación
+            L.marker([coord_lat, coord_lon]).addTo(map);
+            
+        }*/
+
+    </script>
+</html>

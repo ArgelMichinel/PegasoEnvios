@@ -1,0 +1,196 @@
+<style>
+
+.img-big {
+  height: auto;
+}
+
+.formu {
+  text-align: center; 
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://www.pegasoenvios.com/images/home-1000w.png");
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  display: flex;
+  min-height: calc( 120vh - 200px);
+  position: relative;
+  height: auto;
+  vertical-align: middle;
+}
+
+.formu2 {
+  text-align: center; 
+  align-content: center;
+  display: block;
+  min-height: calc( 87vh - 200px);
+  position: relative;
+  height: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+label {
+        display: block;
+}
+
+/* Add styles to the form container */
+.container-reg {
+  position: relative;
+  margin: auto;
+  max-width: 40vw;
+  padding: 16px;
+  background-color: rgb(241, 241, 241, 0.5);
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], select {
+  width: 30vw;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#registro {
+  font-family: 'Roboto', sans-serif;
+  color: #007bff;
+  font-size: 30px;
+}
+
+#respuesta {
+  width: 80vw; 
+  height: 100px;
+  background-color: rgb(241, 241, 241, 0.5);
+  margin: auto;
+}
+
+.formu div h2 {
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: rgb(241, 241, 241);
+}
+
+@media screen and (max-width: 900px){
+    .container-reg {
+      position: relative;
+      margin: auto;
+      max-width: 90vw;
+      padding: 16px;
+      background-color: rgb(241, 241, 241, 0.5);
+    }
+    
+    .formu {
+      text-align: center; 
+      align-content: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://www.pegasoenvios.com/images/home-900w.png");
+      background-position:50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-content: center;
+      display: flex;
+      min-height: calc( 100vh - 200px);
+      position: relative;
+      height: auto;
+      vertical-align: middle;
+    }
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password], select {
+      width: 80vw;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+
+    }
+}
+
+main h2 {
+  text-align: center; 
+  align-content: center;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: #b6b6bf;
+  padding: 5px 0px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+  opacity: 0.96;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+  opacity: 1.0;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+    width: 100%;
+  }
+}
+    
+</style>

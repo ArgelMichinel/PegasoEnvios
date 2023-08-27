@@ -1,0 +1,196 @@
+<style>
+
+.dummy {
+  display: block;
+}
+
+main h2 {
+  text-align: center; 
+  align-content: center;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: #b6b6bf;
+  padding: 5px 0px;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.presentacion {
+  text-align: center; 
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://cmenvios.000webhostapp.com/images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: calc( 100vh - 200px);
+  position: relative;
+  height: auto;
+  vertical-align: middle;
+}
+
+.presentacion h2 {
+  text-align: center; 
+  margin: auto;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  background-color: #b6b6bf;
+  padding: 5px 0px;
+  width: 60vw;
+  vertical-align: middle;
+}
+
+.container-fluid div p {
+  text-align: center; 
+  margin: auto;
+  display: block;
+  font: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: transparent;
+  padding: 5px 0px;
+  width: 60vw;
+  vertical-align: middle;
+}
+ 
+.btn, .btn2 {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.btn3 {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.btn2 {
+  background-color: #36f436;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.btn:hover, .btn2:hover, .btn3:hover {opacity: 1}
+    
+#audio {display: none}
+
+////////////
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #484242;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+label {
+  font: Arial, Helvetica, sans-serif;
+  color: blue;
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+label {
+  color: white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+  opacity: 0.96;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+  opacity: 1.0;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+  opacity: 1.0;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+    width: 100%;
+  }
+}
+
+    
+</style>

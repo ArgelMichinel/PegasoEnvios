@@ -1,0 +1,24 @@
+<style>
+
+.dummy {
+  overflow-x: hidden;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+.formu2 {
+  text-align: center; 
+  align-content: center;
+  display: block;
+  min-height: calc( 87vh - 200px);
+  position: relative;
+  height: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/12575-tecnologia.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+</style>

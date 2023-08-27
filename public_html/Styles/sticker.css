@@ -1,0 +1,60 @@
+<style>
+.dummy {
+    margin-top: 30px;
+}
+.div_total {
+    margin-top: 70px;
+    border: 2px solid black;
+    width: 335px;
+}
+#header, #destinatario {
+    display: block;
+    height: auto;
+    width: 330px;
+    border: 1px solid black;
+}
+.container {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.QR_section{
+    width: 330px;
+    text-align: center;
+}
+p {
+    margin: 0px !important;
+}
+
+.formu {
+  text-align: center; 
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://cmenvios.000webhostapp.com/images/andrew-neel-cckf4TsHAuw-unsplash.jpg");
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  display: block;
+  min-height: calc( 100vh - 200px);
+  position: relative;
+  height: auto;
+  vertical-align: middle;
+}
+.hero-image div {
+    display: inline-block;
+    width: 33%;
+}
+.remitente div {
+    display: inline-block;
+    width: calc(66% - 20px);
+    margin-left: 15px;
+}
+.logo-space {
+    display: inline-block;
+}
+.logo-space img {
+    width: 100%;
+}
+    
+</style>

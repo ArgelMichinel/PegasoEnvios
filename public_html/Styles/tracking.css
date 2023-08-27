@@ -1,0 +1,154 @@
+<style>
+    @import "compass/css3";
+
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+
+    * {
+    box-sizing: border-box;
+    }
+    html,
+    body {
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    }
+    @mixin epic-sides() { // https://codepen.io/MichaelArestad/pen/qltuk
+        
+        position: relative;
+        z-index: 1;
+
+        &:before {
+            position: absolute;
+            content: "";
+            display: block;
+            top: 0;
+            left: -5000px;
+            height: 100%;
+            width: 15000px;
+            z-index: -1;
+            @content;
+        }
+    }
+
+    .row_track {
+        padding: 5px 5px;
+        @include epic-sides() {background: inherit;}
+        text-align: center;
+        top: 55%;
+        position: absolute;
+    }
+
+    .container_fail {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://www.pegasoenvios.com/images/lupa.png");}
+
+
+    @media screen and (max-width: 600px) {
+        .container_track {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://www.pegasoenvios.com/images/tracking-imagen.png");}
+        
+        .container_fail .row_track span {
+            font-size: 15px; 
+            color: crimson;
+        }
+    }
+
+    @media screen and (min-width: 601px) {
+        .container_track {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://www.pegasoenvios.com/images/tracking-imagen_LG.png");}
+    
+        .container_track .row_track {
+            right: calc(50% - 250px);
+        }
+
+        .container_fail .row_track span {
+            font-size: 30px; 
+            color: crimson;
+        }
+    }
+
+    h2 {
+        color: lightgray;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif; 
+    }
+
+    .row_track span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .basic-slide {
+        display: inline-block;
+        width: 215px;
+        padding: 10px 0 10px 15px;
+        font-family: "Open Sans", sans;
+        font-weight: 400;
+        color: #377D6A;
+        border: 0;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+        outline: 0;
+        text-indent: 70px;
+        transition: all .3s ease-in-out;
+    }
+    
+    .basic-slide::-webkit-input-placeholder {
+        color: #efefef;
+        text-indent: 0;
+        font-weight: 300;
+    }
+
+    #someter {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px 15px;
+        text-shadow: 0 1px 0 rgba(19,74,70,.4);
+        background: #091246;
+        transition: all .3s ease-in-out;
+        border-top-right-radius: 22px;
+        border-bottom-right-radius: 22px;
+        color: lightgrey;
+    }
+
+    .basic-slide:focus,
+    .basic-slide:active {
+        color: #377D6A;
+        text-indent: 0;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .basic-slide:focus::-webkit-input-placeholder, .basic-slide:active::-webkit-input-placeholder {
+        color: #aaa;
+    }
+
+    .basic-slide:focus + #someter, .basic-slide:active + #someter {
+        transform: translateX(100%);
+    }
+
+    .container_track, .container_fail {
+        display: flex;
+        text-align: center; 
+        align-content: center;
+        background-position:50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-content: center;
+        overflow-x: hidden;
+        height: 90vh;
+    }
+
+    .container_fail {
+        background-size: contain;
+    }
+
+    .container_fail h2 {
+        color: darkblue;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif; 
+    }
+
+
+</style>

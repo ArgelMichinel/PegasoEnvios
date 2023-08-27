@@ -1,0 +1,165 @@
+body, html {
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width:100%;
+}
+
+.header {
+  height: 105px;
+  max-height: 15%;
+  width: 100vw;
+  background-color:#081665;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  max-width:100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: margin-left .5s;
+  transition: 0.5s;
+}
+
+.header1 {
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  max-width:100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: margin-left .5s;
+  transition: 0.5s;
+}
+
+/* 1)Agrega capa oscura transparente y coloca imagen de la url. 2) Selecciona el centro de la imágen a colocar. 
+   3) Deja la imagen fija del back, para desplazar con raton. 4) ?. 5) Agrega bordes a la entidad que manejamos a partir de los cuales se puede escribir. 6) ?. 7)Dimensiona la imagen en función de la dimensión más grande que quepa en la pantalla sin estirar. 8) Propiedad de la imagen necesaria para poder colocar objetos encima   */
+.hero-image {
+  height: 100px;
+  position: relative;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header1 .hero-image .logo-space{ 
+	padding: 10px 5px 0px 40px; 
+	display: flex;
+    max-height: 100%;
+} 
+
+.header1 .hero-image .logo-space img{ 
+    max-height: 90%;
+    border-radius: 20px;
+    display: table-cell;
+   vertical-align: middle;
+}
+
+.header1 .hero-image .logo-space img:hover { 
+  transform: scale(1.1);  
+  transition: transform 250ms ease-in-out;
+}
+
+
+.topnav {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  color: rgb(255, 255, 255);
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px 12px 0px 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.underH {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-right: 10px;
+}
+
+.underH:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-size: 100% 2px;
+}
+
+.topnav a.icon {
+  float: right;
+  display: none;
+}
+
+
+.topnav-responsive {
+  display: none;
+  max-width:100%;
+  background-color: #070c27;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.6s;
+  transition-timing-function: ease-in-out;
+  transform-origin: 50% 0%;
+}
+.topnav-responsive div a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px 0px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+
+/* Para anchos de pantalla por encima de 900 se disminuye el tamaño del logo, aparece un icono de barra que contiene el menú. Este icono va
+   acompañado de un script de JS que permite expandir o contraer el menú "menu-responsive.js". Se define el display de topnav.a como ninguno y se agrega una clase responsive a la misma para activarla posteriormente*/
+@media screen and (max-width: 900px){ 
+  .header1 .hero-image .logo-space img{ 
+        max-height: 90%;
+        border-radius: 20px;
+    }
+    
+  .topnav a.icon {
+     display: flex;
+     max-height: 100%;;
+	 color: #f2f2f2;
+	 padding: 8px 15px 8px 15px;
+	 border: solid 1px #f2f2f2; 
+	 border-radius: 5px;
+	 margin-right: 10px;
+     align-items: center;
+  }
+  
+  .topnav a {
+	 display: none;
+  }
+    
+  .topnav {
+      align-items: center;
+      display: flex;
+      color: rgb(255, 255, 255);
+      margin-left: auto;
+}
+  
+  .header1{
+	  display: flex;
+      height: auto;
+	  transition: all 0.6s;
+	  transition-timing-function: ease-in-out;
+	  transform-origin: 50% 0%;
+      padding: 5px 0px 0px 15px;
+  }
+
+} 

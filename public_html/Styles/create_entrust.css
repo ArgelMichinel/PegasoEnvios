@@ -1,0 +1,167 @@
+<style>
+
+
+        body{
+            margin: 0px;
+        }
+
+
+    @media screen and (max-width: 600px) {
+        .container_track {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./../images/17497-2.jpg");
+        }
+
+    }
+
+    @media screen and (min-width: 601px) {
+        .container_track {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./../images/17497-2.jpg");}
+
+        .layer-1 {
+            /* animation: parallax_fg linear 220s infinite both;*/
+                background: url('./../img/pegasuslogo-600w2.png') 0 100% no-repeat;
+                z-index: 1;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 210px;
+                height: 430px;
+                background-size: auto 400px;
+        }   
+    }
+
+    .formulario {
+        position: relative;
+        display: block;
+        height: fit-content;
+        padding-top: 40px;
+    }
+
+    .formulario_success, .formulario_success2 {
+        position: relative;
+        display: block;
+        width: 500px;
+        max-width: 90vw;
+        padding-top: 40px;
+        height: auto;
+        margin: auto;
+    }
+
+    .formulario_success {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("./../images/rosebox-BFdSCxmqvYc-unsplash.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+    }
+
+    .container_title {
+        position: relative;
+        display: block;
+        width: auto;
+        height: fit-content;
+        padding-top: 40px;
+    }
+
+    h2 {
+        color: lightgray;
+        font-size: 50px;
+        font-family: 'Roboto', sans-serif; 
+        margin: auto;
+    }
+
+    h3 {
+        color: mediumblue;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif; 
+    }
+
+    .container_track {
+        display: block;
+        text-align: center; 
+        align-content: center;
+        background-position:50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        min-height: 100vh;
+        padding: 0px;
+    }
+
+    @keyframes parallax_fg {
+        0% {
+          background-position: 2865px 100%;
+        }
+        100% {
+          background-position: 550px 100%;
+        }
+    }
+
+/* Add styles to the form container */
+    .container_form {
+    width: 500px;
+    max-width: 90vw;
+    padding: 16px;
+    background-color: white;
+    margin: auto;
+    }
+
+    .container_destino {
+        width: 100%;
+    }
+
+    .opciones {
+    outline: none;
+    background-color: transparent;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    }
+
+    /* Full-width input fields */
+    input[type=text], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    }
+
+    .input_direccion {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    .input_direccion:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    /* Set a style for the submit button */
+    .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    min-width: 150px;
+    opacity: 0.9;
+    }
+
+    .btn:hover {
+    opacity: 1;
+    }
+
+    #map {
+        width: 80%;
+        padding-top: 80%;
+        margin: auto;
+    }
+
+</style>

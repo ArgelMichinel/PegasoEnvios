@@ -1,0 +1,35 @@
+#footer {
+  position: relative;
+  background: #333;
+}
+#footer h3 {
+  color: #fff;
+  font-weight: 900;
+}
+#footer ul li a {
+  color: #ccc;
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+#footer ul li a:hover {
+  color: #fff;
+  margin-left: 4px;
+}
+#copyright {
+  background: #191919;
+}
+#copyright .copyright-text {
+  color: #fff;
+  margin-top: 15px;
+  text-align: center;
+}
+#copyright .copyright-text a {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}

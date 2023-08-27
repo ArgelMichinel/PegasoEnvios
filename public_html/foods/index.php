@@ -1,0 +1,56 @@
+<?php
+
+/*header('Access-Control-Allow-Headers: *');
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
+
+
+include __DIR__ . '/body.html';*/
+
+echo '[{
+	"id": 1,
+	"name": "Pollo",
+	"description": "Pollo es el nombre que reciben las crías de las gallinas y de otras aves."
+},
+{
+	"id": 2,
+	"name": "Vaca",
+	"description": "Mamífero rumiante bóvido, hembra, de unos 150 cm de altura y 250 cm de longitud, cuerpo muy robusto, pelo corto, cabeza gruesa provista de dos cuernos curvos y puntiagudos, hocico ancho, papada en el pecho, y cola larga con un mechón en el extremo; de él se aprovechan la leche, la carne y la piel."
+},
+{
+	"id": 3,
+	"name": "Pescado",
+	"description": "Pez comestible una vez sacado del agua donde vive por cualquiera de los procedimientos de pesca y destinado al consumo alimenticio."
+},
+{
+	"id": 4,
+	"name": "Manzana",
+	"description": "Fruto del manzano, comestible, de forma redondeada y algo hundida por los extremos, piel fina, de color verde, amarillo o rojo, carne blanca y jugosa, de sabor dulce o ácido, y semillas en forma de pepitas encerradas en una cápsula de cinco divisiones."
+},
+{
+	"id": 5,
+	"name": "Banana",
+	"description":"Fruto del bananero, comestible, de forma alargada y algo curvada, pulpa de color blanquecina y piel lisa de color amarillo que se desprende con facilidad."
+},
+{
+	"id": 6,
+	"name": "Pera",
+	"description": "Fruto del peral, comestible, de color verde, amarillo o encarnado, ancho por la parte de abajo y delgado por la de arriba (donde tiene el pedúnculo), de piel fina y pulpa blanca, muy jugosa, sabor dulce y, en el centro, unas semillas pequeñas de color negro."
+},
+{
+	"id": 7,
+	"name": "Tomate",
+	"description": "No jodas, es verdura"
+},
+{
+	"id": 8,
+	"name": "Lechuga",
+	"description": "Planta hortícola de hojas grandes, verdes, enteras o dentadas, las inferiores agrupadas en roseta, de cuyo centro nace un tallo cilíndrico ramificado que lleva en el ápice numerosos capítulos amarillos y fruto seco, gris con una única semilla."
+},
+{
+	"id": 9,
+	"name": "Zanahoria",
+	"description": "Planta herbácea de hojas muy divididas, flores blancas y fruto seco y comprimido."
+}
+]
+';
