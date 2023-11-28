@@ -9,5 +9,5 @@ Aplicación web desarrollada para una empresa de logística que permite el regis
 -Filtra por zonas, cadetes, tiendas y Fecha.
 -Permite visualizar en un mapa el destino final de los envíos junto con una señalización por color que indica el estado de la entrega.
 -Permite incluir paquetes fuera de la plataforma de mercadolibre, incluyendo la dirección y observándo la ubicación en el mapa para verificar la correcta asignación.
--Se cominica con una aplicación de movil que indica la mejor ruta para la entrega de todos los paquetes asignados a un cadeta para la jonada en curso.
+-Se comunica con una aplicación de movil que indica la mejor ruta para la entrega de todos los paquetes asignados a un cadete para la jonada en curso.
 -Los destinatarios de los envíos pueden ingresar a la plataforma y colocando el ID del envío conocer la última ubicación del cadete que lo tiene asignado, así como conocer el estado de la entrega.
